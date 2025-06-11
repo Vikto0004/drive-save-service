@@ -129,13 +129,25 @@
           <div class="wrapper wrapper-hero">
             <picture>
               <source
+                srcset="./images/service-station-australia-mobile.webp"
+                media="(max-width: 768px)"
+                type="image/webp"
+              />
+              <source
+                srcset="./images/service-station-australia.webp"
+                type="image/webp"
+              />
+              <source
                 srcset="./images/service-station-australia-mobile.jpg"
                 media="(max-width: 768px)"
+                type="image/jpeg"
               />
               <img
                 src="./images/service-station-australia.jpg"
                 alt="Service station in Australia"
                 class="wrapper-img"
+                loading="eager"
+                fetchpriority="high"
               />
             </picture>
           </div>
