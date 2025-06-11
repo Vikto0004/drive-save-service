@@ -407,9 +407,12 @@ section {
   right: -80px;
 }
 
+.wrapper picture .wrapper-img {
+  height: 100%;
+}
+
 .wrapper-img {
   width: 100%;
   filter: drop-shadow(0 -10px 10px rgba(0, 0, 0, 0.3));
-
   object-fit: cover;
 }
