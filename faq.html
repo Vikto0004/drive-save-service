@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Drive Save Service — Your trusted service station in Australia. We provide reliable vehicle maintenance, fuel services, and expert repairs to ensure your safety and convenience on the road."
+    />
+    <meta
+      name="keywords"
+      content="Drive Save Service, service station Australia, vehicle maintenance, fuel services, car repairs, Australian drivers"
+    />
+
+    <meta
+      property="og:title"
+      content="Drive Save Service — Reliable Service Station in Australia"
+    />
+    <meta
+      property="og:description"
+      content="Drive Save Service offers high-quality vehicle maintenance, fuel services, and expert repairs across Australia. Your safety and convenience are our priority."
+    />
+    <meta property="og:site_name" content="Drive Save Service" />
+    <meta property="og:locale" content="en_AU" />
+
+    <meta name="geo.region" content="AU" />
+    <meta name="geo.placename" content="Australia" />
+
+    <title>Drive Save Service</title>
+    <link rel="icon" href="images/logo.png" type="image/png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./css/basic.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/faq.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header-nav">
+        <a class="logo" href="./index.html">
+          <img src="./images/logo.png" alt="Drive Save Service" />
+        </a>
+        <ul class="header-nav-list">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About Us</a></li>
+          <li class="services-acc">
+            <a href="./services.html">Our Services</a>
+            <ul class="services-acc-list">
+              <li>
+                <a href="./services/technical-maintenance.html"
+                  >Technical Maintenance</a
+                >
+              </li>
+              <li>
+                <a href="./services/auto-diagnostics.html">Auto Diagnostics</a>
+              </li>
+              <li>
+                <a href="./services/wheel-alignment.html">Wheel Alignment</a>
+              </li>
+              <li><a href="./services/engine-repair.html">Engine Repair</a></li>
+              <li>
+                <a href="./services/chassis-repair.html">Chassis Repair</a>
+              </li>
+              <li>
+                <a href="./services/air-conditioner-refueling.html"
+                  >Air Conditioner Refueling</a
+                >
+              </li>
+              <li>
+                <a href="./services/team-departure.html">Team Departure</a>
+              </li>
+            </ul>
+          </li>
+          <li><a href="./blog.html">Our Blog</a></li>
+          <li><a href="./faq.html">FAQ</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <ul class="header-contact-list">
+        <li class="header-contact-item">
+          <svg>
+            <use href="./images/sprite.svg#phone"></use>
+          </svg>
+          <a href="tel:+61297269010"> +61 297 269 010</a>
+        </li>
+        <li class="header-contact-item">
+          <svg>
+            <use href="./images/sprite.svg#email"></use>
+          </svg>
+          <a href="mailto:info@drivesave.com">info@drivesave.com</a>
+        </li>
+        <li class="header-contact-item">
+          <svg>
+            <use href="./images/sprite.svg#location"></use>
+          </svg>
+          <p>4 Alfred Rd, Chipping Norton NSW 2170, Australia</p>
+        </li>
+      </ul>
+      <button class="burger-btn burgerBtn">
+        <svg>
+          <use href="./images/sprite.svg#burger"></use>
+        </svg>
+      </button>
+    </header>
+
+    <main>
+      <section class="hero" id="hero">
+        <div class="container container-flex">
+          <div class="hero-content">
+            <p class="section-name">Frequently Asked Questions</p>
+            <h1 class="hero-title">Clear Answers About Drive Save Service</h1>
+            <p class="descr">
+              Curious about how Drive Save Service operates, the types of
+              services we offer, or how we ensure quality across our service
+              stations in Australia? You’re in the right place. We’ve compiled
+              the most common questions and provided concise answers. If you
+              have additional inquiries, feel free to reach out to us anytime.
+            </p>
+            <a href="./faq.html#questions" class="primary-btn"
+              >View Questions</a
+            >
+          </div>
+          <div class="wrapper wrapper-hero">
+            <img
+              src="./images/chassis-repair.jpg"
+              alt="Chassis repair service"
+              class="wrapper-img"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="faq" id="questions">
+        <div class="container container-flex">
+          <div class="faq-content">
+            <p class="section-name center">Frequently Asked Questions</p>
+            <h2 class="title">Drive Save Service FAQ</h2>
+            <p class="descr">
+              Find answers to common questions about our services, operations,
+              and commitment to quality. Whether it's fuel options, inspections,
+              or repairs, we've got you covered. Contact us for more details!
+            </p>
+          </div>
+
+          <div class="accordion" id="accordionGeneral">
+            <h3 class="subtitle arrow-box">General Information</h3>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingGeneral1">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseGeneral1"
+                  aria-expanded="true"
+                  aria-controls="collapseGeneral1"
+                >
+                  What areas in Australia do you cover?
+                  <svg>
+                    <use href="./images/sprite.svg#arrow-dropdown"></use>
+                  </svg>
+                </button>
+              </h2>
+              <div
+                id="collapseGeneral1"
+                class="accordion-collapse collapse show"
+                aria-labelledby="headingGeneral1"
+                data-bs-parent="#accordionGeneral"
+              >
+                <div class="accordion-body">
+                  Drive Save Service operates across Australia, with service
+                  stations in major cities like Sydney, Melbourne, Brisbane, and
+                  Perth, as well as regional areas.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingGeneral2">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseGeneral2"
+                  aria-expanded="false"
+                  aria-controls="collapseGeneral2"
+                >
+                  How are your services priced?
+                  <svg>
+                    <use href="./images/sprite.svg#arrow-dropdown"></use>
+                  </svg>
+                </button>
+              </h2>
+              <div
+                id="collapseGeneral2"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingGeneral2"
+                data-bs-parent="#accordionGeneral"
+              >
+                <div class="accordion-body">
+                  Our pricing is transparent and competitive. Each service comes
+                  with a detailed breakdown, ensuring no hidden fees.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingGeneral3">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseGeneral3"
+                  aria-expanded="false"
+                  aria-controls="collapseGeneral3"
+                >
+                  What types of services do you offer?
+                  <svg>
+                    <use href="./images/sprite.svg#arrow-dropdown"></use>
+                  </svg>
+                </button>
+              </h2>
+              <div
+                id="collapseGeneral3"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingGeneral3"
+                data-bs-parent="#accordionGeneral"
+              >
+                <div class="accordion-body">
+                  We provide fuel refills, vehicle inspections, and repair
+                  services. Our team ensures your vehicle is road-ready and
+                  safe.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingGeneral4">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseGeneral4"
+                  aria-expanded="false"
+                  aria-controls="collapseGeneral4"
+                >
+                  Do you offer loyalty programs for frequent customers?
+                  <svg>
+                    <use href="./images/sprite.svg#arrow-dropdown"></use>
+                  </svg>
+                </button>
+              </h2>
+              <div
+                id="collapseGeneral4"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingGeneral4"
+                data-bs-parent="#accordionGeneral"
+              >
+                <div class="accordion-body">
+                  Yes, Drive Save Service offers loyalty programs with discounts
+                  and rewards for frequent customers. Contact us for more
+                  details.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion" id="accordionTechnical">
+            <h3 class="subtitle arrow-box">Technical Details</h3>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTechnical1">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTechnical1"
+                  aria-expanded="true"
+                  aria-controls="collapseTechnical1"
+                >
+                  Is your platform mobile-friendly?
+                  <svg>
+                    <use href="./images/sprite.svg#arrow-dropdown"></use>
+                  </svg>
+                </button>
+              </h2>
+              <div
+                id="collapseTechnical1"
+                class="accordion-collapse collapse show"
+                aria-labelledby="headingTechnical1"
+                data-bs-parent="#accordionTechnical"
+              >
+                <div class="accordion-body">
+                  Yes, Drive Save Service is optimized for mobile devices,
+                  allowing you to access our services from your smartphone,
+                  tablet, or laptop.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTechnical2">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTechnical2"
+                  aria-expanded="false"
+                  aria-controls="collapseTechnical2"
+                >
+                  How do you ensure service quality?
+                  <svg>
+                    <use href="./images/sprite.svg#arrow-dropdown"></use>
+                  </svg>
+                </button>
+              </h2>
+              <div
+                id="collapseTechnical2"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingTechnical2"
+                data-bs-parent="#accordionTechnical"
+              >
+                <div class="accordion-body">
+                  Our team of skilled technicians uses advanced tools and
+                  follows strict protocols to deliver reliable and efficient
+                  services.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTechnical3">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTechnical3"
+                  aria-expanded="false"
+                  aria-controls="collapseTechnical3"
+                >
+                  Can I book services online?
+                  <svg>
+                    <use href="./images/sprite.svg#arrow-dropdown"></use>
+                  </svg>
+                </button>
+              </h2>
+              <div
+                id="collapseTechnical3"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingTechnical3"
+                data-bs-parent="#accordionTechnical"
+              >
+                <div class="accordion-body">
+                  Yes, you can book services online through our website. Simply
+                  select the service you need and choose a convenient time slot.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion" id="accordionExtra">
+            <h3 class="subtitle arrow-box">Additional Questions</h3>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingExtra1">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseExtra1"
+                  aria-expanded="true"
+                  aria-controls="collapseExtra1"
+                >
+                  Can I provide feedback?
+                  <svg>
+                    <use href="./images/sprite.svg#arrow-dropdown"></use>
+                  </svg>
+                </button>
+              </h2>
+              <div
+                id="collapseExtra1"
+                class="accordion-collapse collapse show"
+                aria-labelledby="headingExtra1"
+                data-bs-parent="#accordionExtra"
+              >
+                <div class="accordion-body">
+                  Absolutely! We value your feedback and encourage you to share
+                  your thoughts through our contact form or email.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingExtra2">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseExtra2"
+                  aria-expanded="false"
+                  aria-controls="collapseExtra2"
+                >
+                  Do you offer emergency roadside assistance?
+                  <svg>
+                    <use href="./images/sprite.svg#arrow-dropdown"></use>
+                  </svg>
+                </button>
+              </h2>
+              <div
+                id="collapseExtra2"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingExtra2"
+                data-bs-parent="#accordionExtra"
+              >
+                <div class="accordion-body">
+                  Yes, Drive Save Service provides emergency roadside assistance
+                  for breakdowns and urgent repairs. Contact us for immediate
+                  help.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a href="./index.html" class="footer-logo">
+        <img src="./images/logo.png" alt="logo" />
+      </a>
+      <div class="container">
+        <div class="footer-menu">
+          <h3>Menu</h3>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About Us</a></li>
+            <li><a href="./services.html">Services</a></li>
+            <li><a href="./blog.html">Our Blog</a></li>
+            <li><a href="./faq.html">FAQ</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-menu">
+          <h3>Service Pages</h3>
+          <ul>
+            <li><a href="./cookie-policy.html">Cookie Policy</a></li>
+            <li><a href="./privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="./terms-of-use.html">Terms and Conditions</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h3>Contact Information</h3>
+          <p><strong>Phone:</strong> +61 297 269 010</p>
+          <p>
+            <strong>Address:</strong> 4 Alfred Rd, Chipping Norton NSW 2170,
+            Australia
+          </p>
+          <p>
+            <strong>Email:</strong>
+            <a href="mailto:info@drivesave.com">info@drivesave.com</a>
+          </p>
+        </div>
+        <p class="footer-rights">© All rights reserved 2025</p>
+        <p class="footer-disclaimer">
+          The information provided on this site is for general purposes and does
+          not constitute professional advice. Drive Save Service is not
+          responsible for errors, omissions, or results obtained from using this
+          information.
+        </p>
+      </div>
+    </footer>
+
+    <div class="mobile-menu mobileMenu">
+      <button class="close-btn closeBtn">
+        <svg>
+          <use href="./images/sprite.svg#close"></use>
+        </svg>
+      </button>
+      <nav class="mobile-nav">
+        <ul class="mobile-nav-list">
+          <li><a class="mobile-nav-link" href="./index.html">Home</a></li>
+          <li><a class="mobile-nav-link" href="./about.html">About Us</a></li>
+          <li>
+            <a class="mobile-nav-link" href="./services.html">Our Services</a>
+          </li>
+          <li><a class="mobile-nav-link" href="./blog.html">Our Blog</a></li>
+          <li><a class="mobile-nav-link" href="./faq.html">FAQ</a></li>
+        </ul>
+      </nav>
+      <a class="primary-btn mobile-nav-link" href="./contact.html">Contact</a>
+    </div>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+  <script src="./js/header-menu.js"></script>
+</html>

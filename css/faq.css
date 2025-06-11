@@ -1,0 +1,99 @@
+/* === FAQ === */
+
+.faq {
+  padding: 150px 0;
+  text-align: center;
+}
+
+.faq-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+.faq-content .title {
+  margin-bottom: 14px;
+}
+
+.faq-content .descr {
+  max-width: 840px;
+}
+
+.accordion {
+  width: calc((100% - 80px) / 2);
+}
+
+.accordion:last-child {
+  width: 100%;
+}
+
+.accordion .subtitle {
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .accordion {
+    width: 100%;
+  }
+}
+
+/* === Accordion === */
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  gap: 20px;
+}
+
+.accordion-item {
+  border-radius: var(--border-radius-secondary) !important;
+  box-shadow: none !important;
+  overflow: hidden;
+}
+
+.accordion-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: none !important;
+  border-radius: none !important;
+  transition: all 0.3s ease;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.accordion-button::after {
+  display: none;
+}
+
+.accordion-button svg {
+  fill: none;
+  stroke: #000;
+  width: 20px;
+  height: 20px;
+  stroke-width: 2px;
+  transition: all 0.3s ease;
+}
+
+.accordion-button:not(.collapsed) {
+  color: var(--text-inverted);
+  background-color: var(--accordion-active);
+}
+
+.accordion-button:not(.collapsed) svg {
+  transform: rotate(180deg);
+  stroke: var(--primary-hover);
+}
+
+.accordion-button:hover {
+  background-color: var(--accordion-active);
+}
+
+.accordion-button:hover svg {
+  stroke: var(--primary-color);
+}
